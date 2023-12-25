@@ -13,11 +13,7 @@ function Home() {
         <div>
           <h1 className="flex m-2 mt-12 mb-2 font-mono text-5xl font-bold">
             <span>
-              <img
-                src={hand}
-                alt=""
-                className="w-8 duration-1000 delay-500 animate-bounce"
-              />
+              <img src={hand} alt="" className="w-8 animate-waving-hand" />
             </span>
             , Hey there
           </h1>
