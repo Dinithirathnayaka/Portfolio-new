@@ -29,6 +29,10 @@ module.exports = {
       animation: {
         "waving-hand": "wave 2s linear infinite",
       },
+
+      fontSize: {
+        "5xl": "90px",
+      },
     },
   },
   plugins: [],

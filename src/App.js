@@ -8,11 +8,10 @@ function App() {
     <div className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About />}>
-            <Route index element={<Home />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="about" element={<About />} />
-          </Route>
+          <Route path="/" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
+          <Route path="home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
