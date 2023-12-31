@@ -6,8 +6,6 @@ import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaAt } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import hand from "../assets/waving-hand.png";
-import mail from "../assets/mail-box.png";
 
 function Contact() {
   const form = useRef();
@@ -38,17 +36,14 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <div className="mx-40 pt-60">
-        {" "}
-        <h1 className="text-5xl font-semibold">Let's Create</h1>
-        <h1 className="text-5xl font-semibold">Progress Together</h1>
-      </div>
-      <h5 className="text-xl font-semibold md:mx-20 sm:pt-20">Contact me</h5>
-      <section className="grid gap-8 m-5 mx-40 md:grid-cols-2 md:items-center md:text-left md:mx-20 sm:pt-20 pt-60">
-        <div className="p-5 px-10 py-10 mx-10 bg-white rounded-lg">
-          <h3 className="mb-2 text-2xl font-bold">
-            Have a project or question? Just send me a message.
-          </h3>
+
+      <section className="grid items-center justify-center gap-10 pt-32 md:mx-10 md:grid-cols-2 md:items-center md:text-left md:px-20">
+        <div className="w-auto px-5 py-10 bg-white rounded-lg md:w-full">
+          <h1 className="uppercase">Get in Touch</h1>
+          <h5 className="mb-3 font-sans text-4xl font-bold text-left">
+            Contact me.
+          </h5>
+
           <IconContext.Provider value={{ fontsize: "5px" }}>
             <form ref={form} className="form" onSubmit={sendEmail}>
               <div className="flex my-10">
@@ -96,30 +91,32 @@ function Contact() {
             </form>
           </IconContext.Provider>
         </div>
-        <div className="p-5 mx-10 bg-white">
-          <p>
+        <div className="flex items-center justify-center ">
+          <img
+            src="https://media1.giphy.com/media/j1LcC8vd7UxxP8uFYr/giphy.gif?cid=6c09b952up6zrk5ei7nhjszhtxks4laxgnd3i8iveev7mwu0&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+            alt=""
+            className="max-w-full max-h-full mx-auto animate-slide-in-from-right w-w3"
+          />
+          {/* <p className="mb-8 text-2xl font-bold">
             Your data remains confidential and will not be passed to third
             parties
           </p>
 
           <p>Email</p>
-          <h6>dinithinayanamali98@gmail.com</h6>
+          <h6 className="mb-5 text-xl font-semibold ">
+            dinithinayanamali98@gmail.com
+          </h6>
 
           <p>Phone</p>
-          <h6>0890837878888</h6>
+          <h6 className="mb-5 text-xl font-semibold">0890837878888</h6> */}
         </div>
       </section>
 
-      <section>
-        <h1 className="text-4xl font-semibold text-center">
+      <section className="my-10">
+        <h1 className="text-2xl font-bold text-center">
           Have a project in mind?
         </h1>
-        <h1 className="text-4xl font-semibold text-center">
-          Let’s get to work.{" "}
-          <span>
-            <img src={mail} alt="" className="w-8 animate-waving-hand" />
-          </span>
-        </h1>
+        <h1 className="text-2xl font-bold text-center">Let’s get to work. </h1>
       </section>
       <Footer />
     </div>

@@ -12,7 +12,7 @@ function About() {
       <h5 className="pt-20 mx-20 text-xl font-bold font-display">Education</h5>
 
       <section className="grid gap-8 m-5 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50">
+        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-left">
           <h6 className="p-1 mb-3 font-sans text-base font-bold text-blue-800 text-whitemb-3 ">
             Sabaragamuwa University Of Sri Lanka-Computing And Information
             Systems(CIS)
@@ -28,7 +28,7 @@ function About() {
           </p>
         </div>
 
-        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50">
+        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-right">
           <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
             Sabaragamuwa University Of Sri Lanka-CODL <br />
             Certificate Course in English
@@ -52,7 +52,7 @@ function About() {
 
       <h5 className="mx-20 text-xl font-bold font-display">My Services</h5>
       <section className="grid gap-8 m-5 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50">
+        <div className="h-auto p-5 mx-10 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-bottom">
           <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
             Web Development
           </h6>
