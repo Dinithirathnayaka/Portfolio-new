@@ -2,9 +2,18 @@ import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import img from "../assets/17.jpg";
 import git from "../assets/git.jpg";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import img1 from "../assets/chatbot1.png";
+import img2 from "../assets/fashion1.png";
+import img3 from "../assets/janux1.png";
+import img4 from "../assets/pizza11.png";
+import img5 from "../assets/pizza7.png";
+import img6 from "../assets/metait1.png";
+import img7 from "../assets/pharmacy4.png";
+import img8 from "../assets/school1.png";
+import img9 from "../assets/statics1.png";
+import img10 from "../assets/note1.png";
 
 const CarouselComponent = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -39,15 +48,18 @@ const CarouselComponent = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img1}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/ChatbotGroup-Project">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -55,32 +67,38 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Cloud-based student information chatbot system.
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Created a cloud-based student information chatbot system
+                    that makes information access easier for student safety.
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-blue-600">React.js</p>
+                    <p className="mx-1 text-green-600">Dialog Flow</p>
+                    <p className="mx-1 text-red-600">Firebase</p>
                   </div>
                 </div>
               </div>
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img2}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/NEWFASHION">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -88,24 +106,23 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Fashion store website
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Created mobile response web sie for fashion design.
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
                   </div>
                 </div>
               </div>
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img3}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
@@ -121,17 +138,18 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Admin Panel for Janux Academy
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Creating an admin panel for Janux Academy(Frontend part).
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-blue-600">React.js</p>
+                    <p className="mx-1 text-red-600">Firebase</p>
                   </div>
                 </div>
               </div>
@@ -142,15 +160,17 @@ const CarouselComponent = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img4}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -158,12 +178,50 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      SpiceCraft pizza website
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Creating a SpiceCraft pizza website for pizza ordering
+                    store.
+                  </p>
+                  <div className="flex">
+                    <p className="mx-1 text-blue-600">Laravel</p>
+                    <p className="mx-1 text-red-600">Firebase</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-blue-600">Java Script</p>
+                    <p className="mx-1 text-red-600">My Sql</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+                <img
+                  src={img5}
+                  alt=""
+                  className="mx-auto mt-3 border rounded-lg w-w4"
+                />
+                <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
+
+                <div className="p-5">
+                  <a
+                    href="#"
+                    className="text-blue-700 dark:text-blue-400 hover:underline"
+                  >
+                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      SpiceCraft website's admin panel
+                    </h5>
+                  </a>
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                    Creating an admin panel for SpiceCraft pizza website.
                   </p>
                   <div className="flex">
                     <p className="mx-1 text-blue-600">#react.js</p>
@@ -175,15 +233,18 @@ const CarouselComponent = () => {
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img6}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/Metait-webpage">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -191,50 +252,18 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Metait company official website
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Create mobile response metait official web site for metait
+                    company.
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
-                <img
-                  src={img}
-                  alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
-                />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
-
-                <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
-                    </h5>
-                  </a>
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
-                  </p>
-                  <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-yellow-600">Java Script</p>
                   </div>
                 </div>
               </div>
@@ -245,15 +274,18 @@ const CarouselComponent = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img7}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/Pharmacy-Tracking-System">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -261,24 +293,25 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Pharmacy Tracking System.
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Pharmacy Tracking System for easily tracking the necessary
+                    medicines for patients in the nearest phamacy
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-yellow-600">MERN Stack</p>
                   </div>
                 </div>
               </div>
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img8}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
@@ -294,32 +327,36 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      School Website.
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Created a website for school (Frontend-part).
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-yellow-600">Java Script</p>
+                    <p className="mx-1 text-yellow-600">JFirebase</p>
                   </div>
                 </div>
               </div>
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img9}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
+                <a href="https://github.com/Dinithirathnayaka/statictis-table">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
 
                 <div className="p-5">
                   <a
@@ -327,17 +364,19 @@ const CarouselComponent = () => {
                     className="text-blue-700 dark:text-blue-400 hover:underline"
                   >
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Statictis Table
                     </h5>
                   </a>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    The purpose of a Statistics Table is to summarize and
+                    present data in a structured format, making it easier to
+                    understand, analyze, and draw conclusions from the data.
                   </p>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-yellow-600">Java Script</p>
                   </div>
                 </div>
               </div>
@@ -348,7 +387,43 @@ const CarouselComponent = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img10}
+                  alt=""
+                  className="mx-auto mt-3 border rounded-lg w-w4"
+                />
+                <a href="https://github.com/Dinithirathnayaka/note-app">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
+
+                <div className="p-5">
+                  <a
+                    href="#"
+                    className="text-blue-700 dark:text-blue-400 hover:underline"
+                  >
+                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      Note creating app
+                    </h5>
+                  </a>
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                    Created note adding website.
+                  </p>
+                  <div className="flex">
+                    <p className="mx-1 text-blue-600">HTML</p>
+                    <p className="mx-1 text-green-600">CSS</p>
+                    <p className="mx-1 text-red-600">Bootstrap</p>
+                    <p className="mx-1 text-yellow-600">Java Script</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+                <img
+                  src={img11}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
@@ -381,7 +456,7 @@ const CarouselComponent = () => {
 
               <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
-                  src={img}
+                  src={img12}
                   alt=""
                   className="mx-auto mt-3 border rounded-lg w-w4"
                 />
@@ -410,40 +485,7 @@ const CarouselComponent = () => {
                     <p className="mx-1 text-red-600">#tailwind</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
-                <img
-                  src={img}
-                  alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
-                />
-                <img
-                  src={git}
-                  alt=""
-                  className="absolute w-8 rounded-full top-5 right-5 "
-                />
-
-                <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
-                    </h5>
-                  </a>
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
-                  </p>
-                  <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
-                  </div>
-                </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </Slider>
