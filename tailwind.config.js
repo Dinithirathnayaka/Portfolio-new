@@ -21,6 +21,8 @@ module.exports = {
         w1: "400px",
         w2: "500px",
         w3: "350px",
+        w4: "300px",
+        w5: "320px",
       },
 
       keyframes: {
