@@ -70,6 +70,9 @@ module.exports = {
         "waving-hand": "wave 2s linear infinite",
         bounce: "bounce 1s infinite",
       },
+      height: {
+        h1: "500px",
+      },
     },
   },
   plugins: [],

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import img from "../assets/17.jpg";
 import git from "../assets/git.jpg";
 import "slick-carousel/slick/slick.css";
@@ -10,7 +11,7 @@ import img3 from "../assets/janux1.png";
 import img4 from "../assets/pizza11.png";
 import img5 from "../assets/pizza7.png";
 import img6 from "../assets/metait1.png";
-import img7 from "../assets/pharmacy4.png";
+import img7 from "../assets/Picture1.png";
 import img8 from "../assets/school1.png";
 import img9 from "../assets/statics1.png";
 import img10 from "../assets/note1.png";
@@ -46,11 +47,11 @@ const CarouselComponent = () => {
           {/* Item 1 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img1}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/ChatbotGroup-Project">
                   {" "}
@@ -62,34 +63,54 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Cloud-based student information chatbot system.
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Cloud-based student information chatbot system.
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Created a cloud-based student information chatbot system
                     that makes information access easier for student safety.
                   </p>
+                  <a
+                    href="portfolio1"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-blue-600">React.js</p>
-                    <p className="mx-1 text-green-600">Dialog Flow</p>
-                    <p className="mx-1 text-red-600">Firebase</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="bottom-0 flex">
+                    <p className="mx-1 text-yellow-600">#React.js</p>
+                    <p className="mx-1 text-purple-600">#Dialog Flow</p>
+                    <p className="mx-1 text-orange-600">#Firebase</p>
                   </div>
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img2}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/NEWFASHION">
                   {" "}
@@ -101,30 +122,48 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Fashion store website
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Fashion store website
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Created mobile response web sie for fashion design.
                   </p>
-                  <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
+                  <a
+                    href="portfolio2"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
+                  <div className="bottom-0 flex">
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
                   </div>
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img3}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <img
                   src={git}
@@ -133,23 +172,41 @@ const CarouselComponent = () => {
                 />
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Admin Panel for Janux Academy
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Admin Panel for Janux Academy
+                  </h5>
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Creating an admin panel for Janux Academy(Frontend part).
-                  </p>
+                  </p>{" "}
+                  <a
+                    href="portfolio3"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-blue-600">React.js</p>
-                    <p className="mx-1 text-red-600">Firebase</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-yellow-600">#React.js</p>
+                    <p className="mx-1 text-purple-600">#Firebase</p>
                   </div>
                 </div>
               </div>
@@ -158,11 +215,11 @@ const CarouselComponent = () => {
           {/* Item 2 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img4}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
                   <img
@@ -173,35 +230,56 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      SpiceCraft pizza website
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    SpiceCraft pizza website
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Creating a SpiceCraft pizza website for pizza ordering
                     store.
                   </p>
+
+                  <a
+                    href="portfolio4"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">Laravel</p>
-                    <p className="mx-1 text-red-600">Firebase</p>
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-blue-600">Java Script</p>
-                    <p className="mx-1 text-red-600">My Sql</p>
+                    <p className="mx-1 text-blue-600">#Laravel</p>
+                    <p className="mx-1 text-green-600">#Firebase</p>
+                    <p className="mx-1 text-red-600">#HTML</p>
+                    <p className="mx-1 text-yellow-600">#CSS</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-purple-600">#Bootstrap</p>
+                    <p className="mx-1 text-orange-600">#Java Script</p>
+                    <p className="mx-1 text-pink-600">#MySql</p>
                   </div>
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img5}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
                   <img
@@ -212,17 +290,35 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      SpiceCraft website's admin panel
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    SpiceCraft website's admin panel
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Creating an admin panel for SpiceCraft pizza website.
                   </p>
+                  <a
+                    href="portfolio5"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
                     <p className="mx-1 text-blue-600">#react.js</p>
                     <p className="mx-1 text-green-600">#mongodb</p>
@@ -231,11 +327,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img6}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Metait-webpage">
                   {" "}
@@ -247,23 +343,44 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Metait company official website
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Metait company official website
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Create mobile response metait official web site for metait
                     company.
                   </p>
+
+                  <a
+                    href="portfolio6"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-yellow-600">Java Script</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-yellow-600">#Java Script</p>
                   </div>
                 </div>
               </div>
@@ -272,11 +389,11 @@ const CarouselComponent = () => {
           {/* Item 3 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img7}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pharmacy-Tracking-System">
                   {" "}
@@ -288,32 +405,53 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Pharmacy Tracking System.
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Pharmacy Tracking System.
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Pharmacy Tracking System for easily tracking the necessary
                     medicines for patients in the nearest phamacy
                   </p>
+
+                  <a
+                    href="portfolio7"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-yellow-600">MERN Stack</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-yellow-600">#MERN Stack</p>
                   </div>
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img8}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <img
                   src={git}
@@ -322,32 +460,53 @@ const CarouselComponent = () => {
                 />
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      School Website.
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    School Website.
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Created a website for school (Frontend-part).
                   </p>
+
+                  <a
+                    href="portfolio8"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-yellow-600">Java Script</p>
-                    <p className="mx-1 text-yellow-600">JFirebase</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-yellow-600">#Java Script</p>
+                    <p className="mx-1 text-purple-600">#Firebase</p>
                   </div>
                 </div>
               </div>
 
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img9}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/statictis-table">
                   {" "}
@@ -359,24 +518,46 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Statictis Table
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Statictis Table
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     The purpose of a Statistics Table is to summarize and
                     present data in a structured format, making it easier to
                     understand, analyze, and draw conclusions from the data.
                   </p>
+
+                  <a
+                    href="portfolio9"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
+                  <div className="flex ">
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-yellow-600">Java Script</p>
+                    <p className="mx-1 text-yellow-600">#Java Script</p>
                   </div>
                 </div>
               </div>
@@ -385,11 +566,11 @@ const CarouselComponent = () => {
           {/* Item 4 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center bg-white border border-gray-200 rounded-lg shadow w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img10}
                   alt=""
-                  className="mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
                 />
                 <a href="https://github.com/Dinithirathnayaka/note-app">
                   {" "}
@@ -401,22 +582,43 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <a
-                    href="#"
-                    className="text-blue-700 dark:text-blue-400 hover:underline"
-                  >
-                    <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Note creating app
-                    </h5>
-                  </a>
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Note creating app
+                  </h5>
+
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
                     Created note adding website.
                   </p>
+
+                  <a
+                    href="portfolio10"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">HTML</p>
-                    <p className="mx-1 text-green-600">CSS</p>
-                    <p className="mx-1 text-red-600">Bootstrap</p>
-                    <p className="mx-1 text-yellow-600">Java Script</p>
+                    <p className="mx-1 text-blue-600">#HTML</p>
+                    <p className="mx-1 text-green-600">#CSS</p>
+                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                  </div>
+                  <div className="flex">
+                    <p className="mx-1 text-yellow-600">#Java Script</p>
                   </div>
                 </div>
               </div>
