@@ -17,14 +17,13 @@ import img11 from "../assets/icons8-firebase-240.png";
 function About() {
   return (
     <div className="mx-3 md:mx-20">
-      <Navbar />
       {/*---------------------------------
              -----Education Section-------- 
              -----------------------------------*/}
       <h5 className="pt-20 mx-20 text-xl font-bold font-display">Education</h5>
 
       <section className="grid gap-8 m-2 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-5 mx-8 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-left">
+        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-left">
           <h6 className="p-1 mb-3 font-sans text-base font-bold text-blue-800 text-whitemb-3 ">
             Sabaragamuwa University Of Sri Lanka-Computing And Information
             Systems(CIS)
@@ -40,7 +39,7 @@ function About() {
           </p>
         </div>
 
-        <div className="h-auto p-5 mx-8 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-right">
+        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-right">
           <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
             Sabaragamuwa University Of Sri Lanka-CODL <br />
             Certificate Course in English
@@ -64,7 +63,7 @@ function About() {
 
       <h5 className="mx-20 text-xl font-bold font-display">My Services</h5>
       <section className="grid gap-8 m-2 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-5 mx-8 duration-1000 delay-500 rounded-lg shadow-lg bg-emerald-200 obg-indigo-800 shadow-indigo-500/50 animate-slide-in-from-bottom">
+        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-left">
           <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
             Web Development
           </h6>
@@ -79,74 +78,74 @@ function About() {
       <h5 className="mx-20 mt-20 text-xl font-bold font-display">
         Technologies & Languages
       </h5>
-      <Marquee direction="right" speed={100} className="mt-10 mb-20 bg-white">
-        <div>
+      <Marquee direction="right" speed={100} className="mt-10 mb-20 ">
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img1}
             alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12 "
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img2}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img3}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img4}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img5}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img6}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img src={img7} alt="" className="w-12 mx-8 my-2 md:w-20 md:mx-12" />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img8}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img9}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img10}
             alt=""
             className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
           />
         </div>
-        <div>
+        <div className="p-0.5 bg-white mx-1">
           <img
             src={img11}
             alt=""
@@ -154,8 +153,6 @@ function About() {
           />
         </div>
       </Marquee>
-
-      <Footer />
     </div>
   );
 }

@@ -41,17 +41,25 @@ const CarouselComponent = () => {
 
   return (
     <div id="carousel-example" classNameName="relative w-full">
+      <h5 className="pt-20 mx-20 text-xl font-bold font-display">Projects</h5>
+      <p className="mx-20 text-left ">
+        Following projects showcases my skills and experience through real-world
+        examples of my work. Each project is briefly described with links to
+        code repositories and live demos in it. It reflects my ability to solve
+        complex problems, work with different technologies, and manage projects
+        effectively.
+      </p>
       {/* Carousel wrapper */}
       <div classNameName="relative h-56 overflow-hidden rounded-lg sm:h-64 xl:h-80 2xl:h-96">
         <Slider ref={carouselRef} {...settings}>
           {/* Item 1 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img1}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/ChatbotGroup-Project">
                   {" "}
@@ -106,11 +114,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img2}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/NEWFASHION">
                   {" "}
@@ -159,11 +167,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img3}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <img
                   src={git}
@@ -215,11 +223,11 @@ const CarouselComponent = () => {
           {/* Item 2 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img4}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
                   <img
@@ -275,11 +283,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img5}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pizza-Store">
                   <img
@@ -327,11 +335,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img6}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Metait-webpage">
                   {" "}
@@ -389,11 +397,11 @@ const CarouselComponent = () => {
           {/* Item 3 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img7}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/Pharmacy-Tracking-System">
                   {" "}
@@ -447,11 +455,11 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img8}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <img
                   src={git}
@@ -502,11 +510,14 @@ const CarouselComponent = () => {
                 </div>
               </div>
 
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img9}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  overflow-hidden
+                  bg-cover
+                  bg-no-repeat
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/statictis-table">
                   {" "}
@@ -566,11 +577,11 @@ const CarouselComponent = () => {
           {/* Item 4 */}
           <div classNameName="duration-700 ease-in-out m-10">
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="relative items-center m-8 bg-white border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
                 <img
                   src={img10}
                   alt=""
-                  className="h-40 mx-auto mt-3 border rounded-lg w-w4"
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
                 />
                 <a href="https://github.com/Dinithirathnayaka/note-app">
                   {" "}

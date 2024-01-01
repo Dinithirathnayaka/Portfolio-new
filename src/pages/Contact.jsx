@@ -35,10 +35,8 @@ function Contact() {
   }
   return (
     <div>
-      <Navbar />
-
       <section className="grid items-center justify-center gap-10 pt-32 md:mx-10 md:grid-cols-2 md:items-center md:text-left md:px-20">
-        <div className="w-auto px-5 py-10 bg-white rounded-lg md:w-full">
+        <div className="w-auto px-10 py-10 bg-white rounded-lg md:w-full">
           <h1 className="uppercase">Get in Touch</h1>
           <h5 className="mb-3 font-sans text-4xl font-bold text-left">
             Contact me.
@@ -95,7 +93,7 @@ function Contact() {
           <img
             src="https://media1.giphy.com/media/j1LcC8vd7UxxP8uFYr/giphy.gif?cid=6c09b952up6zrk5ei7nhjszhtxks4laxgnd3i8iveev7mwu0&ep=v1_stickers_related&rid=giphy.gif&ct=s"
             alt=""
-            className="max-w-full max-h-full mx-auto animate-slide-in-from-right w-w3"
+            className="max-w-full max-h-full mx-auto animate-bounce w-w3"
           />
           {/* <p className="mb-8 text-2xl font-bold">
             Your data remains confidential and will not be passed to third
@@ -118,7 +116,6 @@ function Contact() {
         </h1>
         <h1 className="text-2xl font-bold text-center">Let’s get to work. </h1>
       </section>
-      <Footer />
     </div>
   );
 }
