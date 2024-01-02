@@ -19,7 +19,7 @@ function Home() {
     onLoopDone: () => console.log(`loop completed after 3 runs.`),
   });
 
-  const cvUrl = "../assets/Dinithi_Rathnayake.png"; // Replace with the actual path to your CV file
+  const cvUrl = "../assets/Dinithi_Rathnayake.png";
 
   const handleDownload = () => {
     window.location.href = cvUrl;
@@ -93,7 +93,11 @@ function Home() {
         </div>
         <div className="">
           <img src={img2} alt="" className="relative mx-auto w-w2" />
-          <img src={img} alt="" className="absolute right-40 top-40" />
+          <img
+            src={img}
+            alt=""
+            className="absolute top-98 md:right-40 md:top-40"
+          />
         </div>
       </section>
 

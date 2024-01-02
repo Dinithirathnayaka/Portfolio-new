@@ -2,6 +2,11 @@ import React, { useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Marquee from "react-fast-marquee";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 import img1 from "../assets/icons8-html-240.png";
 import img2 from "../assets/icons8-css-240.png";
 import img3 from "../assets/icons8-javascript-240.png";
@@ -13,6 +18,10 @@ import img8 from "../assets/icons8-laravel-96.png";
 import img9 from "../assets/icons8-git-240.png";
 import img10 from "../assets/icons8-mongodb-240.png";
 import img11 from "../assets/icons8-firebase-240.png";
+import img12 from "../assets/developer.png";
+import img13 from "../assets/graduated.png";
+import img14 from "../assets/knowledge.png";
+import { FaFacebook } from "react-icons/fa";
 
 function About() {
   return (
@@ -20,60 +29,98 @@ function About() {
       {/*---------------------------------
              -----Education Section-------- 
              -----------------------------------*/}
+
       <h5 className="pt-20 mx-20 text-xl font-bold font-display">Education</h5>
 
-      <section className="grid gap-8 m-2 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-left">
-          <h6 className="p-1 mb-3 font-sans text-base font-bold text-blue-800 text-whitemb-3 ">
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
+          date="2020 - present"
+          iconStyle={{
+            background: "rgb(147, 51, 254)",
+            color: "#fff",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          icon={<img src={img13} alt="Your Image" style={{ width: "40px" }} />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            {" "}
             Sabaragamuwa University Of Sri Lanka-Computing And Information
             Systems(CIS)
-          </h6>
-          <p className="w-32 p-1 mb-3 text-center text-blue-800 bg-blue-300 rounded-xl">
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle ">
+            {" "}
             Undergraduate
-          </p>
-
-          <p className="text-gray-500">
+          </h4>
+          <p>
             I am an undergraduate from the Department of Computing and
             Information Systems at the Faculty of Computing, Sabaragamuwa
             University of Sri Lanka.
           </p>
-        </div>
-
-        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-right">
-          <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work "
+          date=" October 2018 - April 2019"
+          iconStyle={{
+            background: "rgb(147, 51, 254)",
+            color: "#fff",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          icon={<img src={img14} alt="Your Image" style={{ width: "40px" }} />}
+        >
+          <h3 className="vertical-timeline-element-title">
             Sabaragamuwa University Of Sri Lanka-CODL <br />
             Certificate Course in English
-          </h6>
-          <p className="w-32 p-1 mb-3 text-center text-blue-800 bg-blue-300 rounded-xl">
-            Completed
-          </p>
-          <button className="justify-end p-0.5 mb-3 mr-0 text-center text-red-800 bg-gray-300 w-60 rounded-lg">
-            October 2018-April 2019
-          </button>
-          <p className="text-gray-500">
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Completed</h4>
+          <p>
             I completed a Certificate Course in English at the Center for Open
             and Distance Learning (CODL), Sabaragamuwa University of Sri Lanka.
           </p>
-        </div>
-      </section>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
 
       {/*---------------------------------
              -----MyService Section-------- 
              -----------------------------------*/}
 
-      <h5 className="mx-20 text-xl font-bold font-display">My Services</h5>
-      <section className="grid gap-8 m-2 md:grid-cols-2 md:items-center md:text-left md:mx-20 ">
-        <div className="h-auto p-10 mx-8 duration-1000 delay-500 bg-white rounded-lg shadow-lg shadow-indigo-500/50 animate-slide-in-from-left">
-          <h6 className="mb-3 font-sans text-base font-bold text-blue-800">
-            Web Development
-          </h6>
-          <p className="text-gray-500">
+      <h5 className="mx-20 mt-20 text-xl font-bold font-display">
+        My Services
+      </h5>
+
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
+          date="2021 - present"
+          iconStyle={{
+            background: "rgb(147, 51, 254)",
+            color: "#fff",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          icon={<img src={img12} alt="Your Image" style={{ width: "40px" }} />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            {" "}
+            Full Stack Web Development
+          </h3>
+
+          <p>
             I'm a skilled Full-Stack Developer in MERN stack and PHP Laravel.
             Explore my portfolio to see my work in building dynamic web
             applications using cutting-edge technologies.
           </p>
-        </div>
-      </section>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
 
       <h5 className="mx-20 mt-20 text-xl font-bold font-display">
         Technologies & Languages
