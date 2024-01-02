@@ -2,9 +2,12 @@ import React, { useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import emailjs from "emailjs-com";
+import bgImg from "../assets/bg-1.jpg";
 import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaAt } from "react-icons/fa";
+import { FaMap } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 function Contact() {
@@ -34,87 +37,87 @@ function Contact() {
     e.target.reset();
   }
   return (
-    <div>
-      <section className="grid items-center justify-center gap-10 pt-32 md:mx-10 md:grid-cols-2 md:items-center md:text-left md:px-20">
-        <div className="w-auto px-10 py-10 bg-white rounded-lg md:w-full">
-          <h1 className="uppercase">Get in Touch</h1>
-          <h5 className="mb-3 font-sans text-4xl font-bold text-left">
-            Contact me.
-          </h5>
+    <div
+      className="relative w-full bg-center bg-no-repeat bg-cover "
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
+      <section className="grid items-center justify-center gap-10 py-20 md:grid-cols-2 md:items-center md:text-left md:px-20 backdrop-brightness-50 bg-black/30">
+        <div className="z-50">
+          <h5 className="mb-5 text-2xl font-bold text-white">Contact me</h5>
+          <div className="flex mb-5">
+            <FaMap className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
+
+            <div>
+              <h3 className="text-purple-600">Address</h3>
+              <p className="text-white">
+                "Madushan" <br />
+                Batawela, <br />
+                Pattiyagedara, <br />
+                Bandarawela.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex mb-5">
+            <FaPhone className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
+            <div>
+              <h3 className="text-purple-600">Phone</h3>
+              <p className="text-white">0716690125</p>
+            </div>
+          </div>
+
+          <div className="flex mb-5">
+            <FaEnvelope className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
+            <div>
+              <h3 className="text-purple-600">Email</h3>
+              <p className="text-white">dinithinayanamali98@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-auto px-10 py-10 bg-white rounded-lg md:w-60%">
+          <h2 className="text-2xl font-bold">Send Message</h2>
 
           <IconContext.Provider value={{ fontsize: "5px" }}>
             <form ref={form} className="form" onSubmit={sendEmail}>
               <div className="flex my-10">
-                <FaUserAlt className="m-3 text-2xl" />
-                <input type="hidden" name="contact_number" />
-
                 <input
                   id="name"
                   type="text"
                   name="name"
-                  className="w-full p-2 text-xl border rounded-md"
-                  placeholder="Your name"
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none"
+                  placeholder="Full Name"
                 />
               </div>
 
               <div className="flex my-10">
-                <FaAt className="m-3 text-2xl" />
-
                 <input
                   id="email"
                   type="email"
                   name="email"
-                  className="w-full p-2 text-xl border rounded-md"
-                  placeholder="Your email"
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none "
+                  placeholder="Email"
                 />
               </div>
 
               <div className="flex my-10">
-                <FaEnvelope className="m-3 text-2xl" />
-
                 <textarea
                   id="message"
-                  rows={5}
+                  rows={2}
                   name="message"
-                  className="w-full p-2 text-xl border rounded-md msg "
-                  placeholder="Message..."
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none"
+                  placeholder="Type Your Message..."
                 />
               </div>
               <button
                 type="submit"
-                className="p-5 text-white bg-black rounded-md"
+                className="w-40 p-3 text-white bg-purple-600 rounded-md"
               >
-                Send Message
+                Send
               </button>
             </form>
           </IconContext.Provider>
         </div>
-        <div className="flex items-center justify-center ">
-          <img
-            src="https://media1.giphy.com/media/j1LcC8vd7UxxP8uFYr/giphy.gif?cid=6c09b952up6zrk5ei7nhjszhtxks4laxgnd3i8iveev7mwu0&ep=v1_stickers_related&rid=giphy.gif&ct=s"
-            alt=""
-            className="max-w-full max-h-full mx-auto animate-bounce w-w3"
-          />
-          {/* <p className="mb-8 text-2xl font-bold">
-            Your data remains confidential and will not be passed to third
-            parties
-          </p>
-
-          <p>Email</p>
-          <h6 className="mb-5 text-xl font-semibold ">
-            dinithinayanamali98@gmail.com
-          </h6>
-
-          <p>Phone</p>
-          <h6 className="mb-5 text-xl font-semibold">0890837878888</h6> */}
-        </div>
-      </section>
-
-      <section className="my-10">
-        <h1 className="text-2xl font-bold text-center">
-          Have a project in mind?
-        </h1>
-        <h1 className="text-2xl font-bold text-center">Let’s get to work. </h1>
       </section>
     </div>
   );

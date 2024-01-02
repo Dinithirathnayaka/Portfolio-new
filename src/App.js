@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Main from "./pages/MainPage";
 import Portfolio from "./pages/Portfolio";
 import Portfolio1 from "./pages/Portfolio1";
 import Portfolio2 from "./pages/Portfolio2";
@@ -17,13 +18,14 @@ import Portfolio9 from "./pages/Portfolio9";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto">
+    <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Portfolio />} />
+          <Route path="/" element={<Main />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="home" element={<Home />} />
+          <Route path="portfolio" element={<Portfolio />} />
           <Route path="portfolio1" element={<Portfolio1 />} />
           <Route path="portfolio2" element={<Portfolio2 />} />
           <Route path="portfolio3" element={<Portfolio3 />} />

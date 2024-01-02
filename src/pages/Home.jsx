@@ -1,12 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import img from "../assets/face-5.png";
 import img2 from "../assets/paint.png";
-import hand from "../assets/waving-hand.png";
-import About from "./About";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +8,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Home() {
   const [text] = useTypewriter({
-    words: ["Dinithi Rathnayake", "Web Developer", "Full Stack Developer"],
+    words: ["Web Developer.", "Full Stack Developer."],
     loop: 3,
     onLoopDone: () => console.log(`loop completed after 3 runs.`),
   });
@@ -25,9 +19,8 @@ function Home() {
     window.location.href = cvUrl;
   };
   return (
-    <div>
-      <Navbar className="" />
-      <section className="grid gap-8 m-5 md:grid-cols-2 md:items-center md:text-left md:mx-20 sm:pt-20">
+    <div className="w-full h-auto p-20">
+      <section className="grid gap-8 md:grid-cols-2 md:items-center md:text-left sm:py-20">
         {" "}
         <div>
           <h1 className="mb-3 text-xl font-bold text-purple-600 uppercase">
@@ -35,7 +28,7 @@ function Home() {
           </h1>
 
           <h1 className="mb-8 text-4xl font-bold">
-            I'm <span>{text}</span>{" "}
+            I'm Dinithi Rathnayake ,<br />a <span>{text}</span>{" "}
             <span>
               {" "}
               <Cursor className="text-purple-600" />
@@ -50,18 +43,18 @@ function Home() {
 
           <div className="flex items-center mb-3 flex-left">
             <div className="m-2 bg-gray-300 rounded-full hover:border-2 hover:border-purple-600 hover:text-purple-600">
-              <a href="http://www.linkedin.com/in/supun-nilakshana-916129202">
+              <a href="https://www.linkedin.com/in/dinithi-rathnayake-887126202/">
                 <FaLinkedin className="m-3 text-xl " />
               </a>
             </div>
 
             <div className="m-2 bg-gray-300 rounded-full hover:border-2 hover:border-purple-600 hover:text-purple-600">
-              <a href="https://www.facebook.com/supun.nilakshana.5">
+              <a href="https://www.facebook.com/dinithi.rathnayake.942?mibextid=ZbWKwL">
                 <FaFacebook className="m-3 text-xl" />
               </a>
             </div>
             <div className="m-3 bg-gray-300 rounded-full hover:border-2 hover:border-purple-600 hover:text-purple-600">
-              <a href="https://github.com/supunnilakshana">
+              <a href="https://github.com/Dinithirathnayaka">
                 <FaGithub className="m-3 text-xl" />
               </a>
             </div>
@@ -100,11 +93,6 @@ function Home() {
           />
         </div>
       </section>
-
-      <About />
-      <Portfolio />
-      <Contact />
-      <Footer />
     </div>
   );
 }

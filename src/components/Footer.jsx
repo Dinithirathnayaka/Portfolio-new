@@ -6,26 +6,40 @@ import { IconContext } from "react-icons";
 
 function Footer() {
   return (
-    <section className="items-center mx-20 ">
+    <section className="items-center h-40 border-none outline-none dark:bg-gray-800 ">
       <hr />
-      <div>
-        <p className="mb-3 font-medium text-center">
-          © 2023 All rights reserved.
-        </p>
-      </div>
 
-      <div className="flex items-center justify-center mx-auto ">
-        <a href="http://www.linkedin.com/in/supun-nilakshana-916129202">
-          <FaLinkedin className="m-3 text-xl" />
+      <div className="flex items-center justify-center mx-auto mb-3">
+        <a href="https://www.linkedin.com/in/dinithi-rathnayake-887126202/">
+          <FaLinkedin className="m-3 text-xl text-white" />
         </a>
 
-        <a href="https://www.facebook.com/supun.nilakshana.5">
-          <FaFacebook className="m-3 text-xl" />
+        <a href="https://www.facebook.com/dinithi.rathnayake.942?mibextid=ZbWKwL">
+          <FaFacebook className="m-3 text-xl text-white" />
         </a>
-        <a href="https://github.com/supunnilakshana">
-          <FaGithub className="m-3 text-xl" />
+        <a href="https://github.com/Dinithirathnayaka">
+          <FaGithub className="m-3 text-xl text-white" />
         </a>
       </div>
+
+      <div className="flex justify-center mb-10 text-center">
+        <a href="" className="mx-2 font-bold text-white">
+          Home
+        </a>
+        <a href="" className="mx-2 font-bold text-white">
+          About
+        </a>
+        <a href="" className="mx-2 font-bold text-white">
+          Portfolio
+        </a>
+        <a href="" className="mx-2 font-bold text-white">
+          Contact
+        </a>
+      </div>
+
+      <p className="bottom-0 text-center text-white font-lg">
+        © 2023 All rights reserved.
+      </p>
     </section>
   );
 }

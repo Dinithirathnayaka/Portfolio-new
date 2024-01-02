@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import bgImg from "../assets/bg-1.jpg";
 import Marquee from "react-fast-marquee";
 import {
   VerticalTimeline,
@@ -25,181 +24,202 @@ import { FaFacebook } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="mx-3 md:mx-20">
+    <div
+      className="relative w-full bg-center bg-no-repeat bg-coverpy-20"
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       {/*---------------------------------
              -----Education Section-------- 
              -----------------------------------*/}
 
-      <h5 className="pt-20 mx-20 text-xl font-bold font-display">Education</h5>
+      <div className="p-20 bg-cover backdrop-brightness-50 bg-black/55">
+        <h5 className="mb-5 text-2xl font-bold text-white">About me</h5>
+        <h5 className="w-full mx-20 text-xl font-bold text-purple-600">
+          Education
+        </h5>
 
-      <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
-          date="2020 - present"
-          iconStyle={{
-            background: "rgb(147, 51, 254)",
-            color: "#fff",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          icon={<img src={img13} alt="Your Image" style={{ width: "40px" }} />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            {" "}
-            Sabaragamuwa University Of Sri Lanka-Computing And Information
-            Systems(CIS)
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle ">
-            {" "}
-            Undergraduate
-          </h4>
-          <p>
-            I am an undergraduate from the Department of Computing and
-            Information Systems at the Faculty of Computing, Sabaragamuwa
-            University of Sri Lanka.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work "
-          date=" October 2018 - April 2019"
-          iconStyle={{
-            background: "rgb(147, 51, 254)",
-            color: "#fff",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          icon={<img src={img14} alt="Your Image" style={{ width: "40px" }} />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Sabaragamuwa University Of Sri Lanka-CODL <br />
-            Certificate Course in English
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Completed</h4>
-          <p>
-            I completed a Certificate Course in English at the Center for Open
-            and Distance Learning (CODL), Sabaragamuwa University of Sri Lanka.
-          </p>
-        </VerticalTimelineElement>
-      </VerticalTimeline>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
+            date="2020 - present"
+            iconStyle={{
+              background: "rgb(147, 51, 254)",
+              color: "#fff",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            icon={
+              <img src={img13} alt="Your Image" style={{ width: "40px" }} />
+            }
+          >
+            <h3 className="mb-3 vertical-timeline-element-title">
+              {" "}
+              Sabaragamuwa University Of Sri Lanka-Computing And Information
+              Systems(CIS)
+            </h3>
+            <h4 className="w-32 p-1 text-center text-black bg-white rounded-lg vertical-timeline-element-subtitle ">
+              {" "}
+              Undergraduate
+            </h4>
+            <p>
+              I am an undergraduate from the Department of Computing and
+              Information Systems at the Faculty of Computing, Sabaragamuwa
+              University of Sri Lanka.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work "
+            date=" October 2018 - April 2019"
+            iconStyle={{
+              background: "rgb(147, 51, 254)",
+              color: "#fff",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            icon={
+              <img src={img14} alt="Your Image" style={{ width: "40px" }} />
+            }
+          >
+            <h3 className="vertical-timeline-element-title">
+              Sabaragamuwa University Of Sri Lanka-CODL <br />
+              Certificate Course in English
+            </h3>
+            <h4 className="w-32 p-1 text-center text-white bg-purple-600 rounded-lg vertical-timeline-element-subtitle">
+              Completed
+            </h4>
+            <p>
+              I completed a Certificate Course in English at the Center for Open
+              and Distance Learning (CODL), Sabaragamuwa University of Sri
+              Lanka.
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
 
-      {/*---------------------------------
-             -----MyService Section-------- 
-             -----------------------------------*/}
+        {/*---------------------------------
+       -----MyService Section-------- 
+       -----------------------------------*/}
 
-      <h5 className="mx-20 mt-20 text-xl font-bold font-display">
-        My Services
-      </h5>
+        <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600">
+          My Services
+        </h5>
 
-      <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
-          date="2021 - present"
-          iconStyle={{
-            background: "rgb(147, 51, 254)",
-            color: "#fff",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          icon={<img src={img12} alt="Your Image" style={{ width: "40px" }} />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            {" "}
-            Full Stack Web Development
-          </h3>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(147, 51, 254)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(147, 51, 254)" }}
+            date="2021 - present"
+            iconStyle={{
+              background: "rgb(147, 51, 254)",
+              color: "#fff",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            icon={
+              <img src={img12} alt="Your Image" style={{ width: "40px" }} />
+            }
+          >
+            <h3 className="vertical-timeline-element-title">
+              {" "}
+              Full Stack Web Development
+            </h3>
 
-          <p>
-            I'm a skilled Full-Stack Developer in MERN stack and PHP Laravel.
-            Explore my portfolio to see my work in building dynamic web
-            applications using cutting-edge technologies.
-          </p>
-        </VerticalTimelineElement>
-      </VerticalTimeline>
+            <p>
+              I'm a skilled Full-Stack Developer in MERN stack and PHP Laravel.
+              Explore my portfolio to see my work in building dynamic web
+              applications using cutting-edge technologies.
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
 
-      <h5 className="mx-20 mt-20 text-xl font-bold font-display">
-        Technologies & Languages
-      </h5>
-      <Marquee direction="right" speed={100} className="mt-10 mb-20 ">
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img1}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12 "
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img2}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img3}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img4}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img5}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img6}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img src={img7} alt="" className="w-12 mx-8 my-2 md:w-20 md:mx-12" />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img8}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img9}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img10}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-        <div className="p-0.5 bg-white mx-1">
-          <img
-            src={img11}
-            alt=""
-            className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
-          />
-        </div>
-      </Marquee>
+        <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600">
+          Technologies & Languages
+        </h5>
+        <Marquee direction="right" speed={100} className="mt-10 ">
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img1}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12 "
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img2}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img3}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img4}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img5}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img6}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img7}
+              alt=""
+              className="w-12 mx-8 my-2 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img8}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img9}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img10}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+          <div className="p-0.5 bg-white mx-1">
+            <img
+              src={img11}
+              alt=""
+              className="w-12 p-2 mx-8 my-2 rounded-full dark:bg-gray-800 dark:border-gray-700 md:w-20 md:mx-12"
+            />
+          </div>
+        </Marquee>
+      </div>
     </div>
   );
 }
