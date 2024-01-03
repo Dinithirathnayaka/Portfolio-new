@@ -19,7 +19,7 @@ function Home() {
     window.location.href = cvUrl;
   };
   return (
-    <div className="w-full h-auto p-20">
+    <div className="w-full h-auto p-20" id="home">
       <section className="grid gap-8 md:grid-cols-2 md:items-center md:text-left sm:py-20">
         {" "}
         <div>

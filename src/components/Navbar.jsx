@@ -24,7 +24,7 @@ function Navbar() {
           </a>
           <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
             <NavLink
-              to="contact"
+              to="#contact"
               className="px-4 py-2 text-sm font-medium text-center text-white bg-purple-600 rounded-lg hover:bg-purple-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-purple-600 dark:hover:bg-purple-600 dark:focus:ring-purple-600"
             >
               {" "}
@@ -65,7 +65,7 @@ function Navbar() {
             <ul className="flex flex-col p-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 dark:border-gray-700">
               <li>
                 <a
-                  href="/"
+                  href="#home"
                   className="block px-3 py-2 text-white bg-purple-600 rounded md:bg-transparent md:text-purple-600 md:p-0 md:dark:text-purple-600"
                   aria-current="page"
                 >
@@ -74,7 +74,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="about"
+                  href="#about"
                   className="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:ttext-purple-600 md:p-0 md:dark:hover:text-purple-600 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About
@@ -82,7 +82,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="/portfolio"
+                  href="#portfolio"
                   className="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-600 md:p-0 md:dark:hover:text-purple-600 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Portfolio

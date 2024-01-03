@@ -40,6 +40,7 @@ function Contact() {
     <div
       className="relative w-full bg-center bg-no-repeat bg-cover "
       style={{ backgroundImage: `url(${bgImg})` }}
+      id="contact"
     >
       <section className="grid items-center justify-center gap-10 py-20 md:grid-cols-2 md:items-center md:text-left md:px-20 backdrop-brightness-50 bg-black/30">
         <div className="z-50">

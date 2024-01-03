@@ -27,6 +27,7 @@ function About() {
     <div
       className="relative w-full bg-center bg-no-repeat bg-coverpy-20"
       style={{ backgroundImage: `url(${bgImg})` }}
+      id="about"
     >
       {/*---------------------------------
              -----Education Section-------- 
