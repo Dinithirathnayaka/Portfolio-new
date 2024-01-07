@@ -23,6 +23,7 @@ module.exports = {
         w3: "350px",
         w4: "300px",
         w5: "320px",
+        w6: "700px",
       },
 
       keyframes: {

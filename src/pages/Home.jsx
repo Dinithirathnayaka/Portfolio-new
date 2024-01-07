@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/face-5.png";
-import img2 from "../assets/paint.png";
+import img2 from "../assets/bg-3.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -19,8 +19,8 @@ function Home() {
     window.location.href = cvUrl;
   };
   return (
-    <div className="w-full h-auto p-20" id="home">
-      <section className="grid gap-8 md:grid-cols-2 md:items-center md:text-left sm:py-20">
+    <div className="w-full h-auto px-8 pt-20 md:p-10" id="home">
+      <section className="grid gap-5 md:grid-cols-2 md:items-center md:text-left sm:pt-20">
         {" "}
         <div>
           <h1 className="mb-3 text-xl font-bold text-purple-600 uppercase">
@@ -36,9 +36,12 @@ function Home() {
           </h1>
 
           <p className="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            reiciendis sed error doloribus, doloremque eius consequatur.
-            Provident laudantium mollitia obcaecati.
+            "✨🚀 Passionate Developer with a flair for crafting seamless,
+            innovative, and user-centric web experiences. My code weaves
+            together creativity and functionality, transforming ideas into
+            digital masterpieces. From front-end finesse to back-end brilliance,
+            I specialize in bringing projects to life with a perfect blend of
+            aesthetics and robust functionality.💻✨"
           </p>
 
           <div className="flex items-center mb-3 flex-left">
@@ -84,13 +87,9 @@ function Home() {
             </svg>
           </a>
         </div>
-        <div className="">
-          <img src={img2} alt="" className="relative mx-auto w-w2" />
-          <img
-            src={img}
-            alt=""
-            className="absolute top-98 md:right-40 md:top-40"
-          />
+        <div className="relative flex items-center justify-center">
+          <img src={img2} alt="" className="mx-auto w-w6" />
+          <img src={img} alt="" className="absolute" />
         </div>
       </section>
     </div>

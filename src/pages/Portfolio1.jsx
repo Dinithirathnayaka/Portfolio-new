@@ -11,7 +11,10 @@ import Navbar from "../components/Navbar";
 
 function Portfolio1() {
   return (
-    <div className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto">
+    <div
+      className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto"
+      id="portfolio1"
+    >
       <Navbar />
       <h5 className="mx-40 text-xl text-white pt-14">More Details ...</h5>
       <div className="h-auto py-10 ">
