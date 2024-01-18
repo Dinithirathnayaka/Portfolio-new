@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/face-5.png";
-import img2 from "../assets/bg-3.jpg";
+import img2 from "../assets/bg-3.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

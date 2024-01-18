@@ -67,9 +67,9 @@ const CarouselComponent = () => {
           and manage projects effectively.
         </p>
 
-        <div classNameName="duration-700 ease-in-out m-10 md:hidden block">
-          <div className="flex flex-wrap justify-center gap-4 md:hidden">
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+        <div classNameName="duration-700 ease-in-out md:hidden block mt-10">
+          <div className="flex flex-wrap justify-center gap-2 md:hidden">
+            <div className="relative items-center mt-10 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img1}
                 alt=""
@@ -128,7 +128,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img2}
                 alt=""
@@ -181,7 +181,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img3}
                 alt=""
@@ -237,7 +237,7 @@ const CarouselComponent = () => {
         {/* Item 2 */}
         <div classNameName="duration-700 ease-in-out m-10">
           <div className="flex flex-wrap justify-center gap-4 md:hidden">
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img4}
                 alt=""
@@ -296,7 +296,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img5}
                 alt=""
@@ -348,7 +348,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img6}
                 alt=""
@@ -410,7 +410,7 @@ const CarouselComponent = () => {
         {/* Item 3 */}
         <div classNameName="duration-700 ease-in-out m-10">
           <div className="flex flex-wrap justify-center gap-4 md:hidden">
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img7}
                 alt=""
@@ -468,7 +468,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img8}
                 alt=""
@@ -523,7 +523,7 @@ const CarouselComponent = () => {
               </div>
             </div>
 
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img9}
                 alt=""
@@ -590,7 +590,7 @@ const CarouselComponent = () => {
         {/* Item 4 */}
         <div classNameName="duration-700 ease-in-out m-10">
           <div className="flex flex-wrap justify-center gap-4 md:hidden">
-            <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
               <img
                 src={img10}
                 alt=""

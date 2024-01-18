@@ -11,7 +11,7 @@ function Portfolio10() {
         More Details ...
       </h5>
 
-      <div className="h-auto pt-2 pb-12 mx:pt-8">
+      <div className="h-auto pt-6 pb-14 mx:pt-8">
         <div className="flex flex-wrap justify-center gap-4">
           <div className="relative m-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 ">
             <img
