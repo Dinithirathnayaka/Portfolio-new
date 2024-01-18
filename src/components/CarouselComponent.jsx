@@ -58,8 +58,10 @@ const CarouselComponent = () => {
         id="carousel-example"
         className="relative w-full px-8 py-20 bg-cover md:p-20"
       >
-        <h5 className="mb-5 text-2xl font-bold text-purple-600">Projects</h5>
-        <p className="mb-2 text-lg text-left ">
+        <h5 className="mb-5 text-2xl font-bold text-purple-600 font-inter">
+          Projects
+        </h5>
+        <p className="mb-2 text-lg text-left font-inter ">
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
@@ -85,17 +87,17 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Cloud-based student information chatbot system.
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Created a cloud-based student information chatbot system that
                   makes information access easier for student safety.
                 </p>
                 <a
                   href="/portfolio1"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -116,14 +118,16 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="bottom-0 flex">
-                  <p className="mx-1 text-yellow-600">#React.js</p>
-                  <p className="mx-1 text-purple-600">#Dialog Flow</p>
-                  <p className="mx-1 text-orange-600">#Firebase</p>
+                  <p className="mx-1 text-yellow-600 font-inter">#React.js</p>
+                  <p className="mx-1 text-purple-600 font-inter">
+                    #Dialog Flow
+                  </p>
+                  <p className="mx-1 text-orange-600 font-inter">#Firebase</p>
                 </div>
               </div>
             </div>
@@ -144,16 +148,16 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Fashion store website
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Created mobile response web sie for fashion design.
                 </p>
                 <a
                   href="/portfolio2"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -174,9 +178,9 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="bottom-0 flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
               </div>
             </div>
@@ -194,15 +198,15 @@ const CarouselComponent = () => {
               />
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Admin Panel for Janux Academy
                 </h5>
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Creating an admin panel for Janux Academy(Frontend part).
                 </p>{" "}
                 <a
                   href="/portfolio3"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -222,13 +226,13 @@ const CarouselComponent = () => {
                   </svg>
                 </a>
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#React.js</p>
-                  <p className="mx-1 text-purple-600">#Firebase</p>
+                  <p className="mx-1 text-yellow-600 font-inter">#React.js</p>
+                  <p className="mx-1 text-purple-600 font-inter">#Firebase</p>
                 </div>
               </div>
             </div>
@@ -252,17 +256,17 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   SpiceCraft pizza website
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Creating a SpiceCraft pizza website for pizza ordering store.
                 </p>
 
                 <a
                   href="/portfolio4"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -283,15 +287,17 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#Laravel</p>
-                  <p className="mx-1 text-green-600">#Firebase</p>
-                  <p className="mx-1 text-red-600">#HTML</p>
-                  <p className="mx-1 text-yellow-600">#CSS</p>
+                  <p className="mx-1 text-blue-600 font-inter">#Laravel</p>
+                  <p className="mx-1 text-green-600 font-inter">#Firebase</p>
+                  <p className="mx-1 text-red-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-yellow-600 font-inter">#CSS</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-purple-600">#Bootstrap</p>
-                  <p className="mx-1 text-orange-600">#Java Script</p>
-                  <p className="mx-1 text-pink-600">#MySql</p>
+                  <p className="mx-1 text-purple-600 font-inter">#Bootstrap</p>
+                  <p className="mx-1 text-orange-600 font-inter">
+                    #Java Script
+                  </p>
+                  <p className="mx-1 text-pink-600 font-inter">#MySql</p>
                 </div>
               </div>
             </div>
@@ -311,16 +317,16 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   SpiceCraft website's admin panel
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Creating an admin panel for SpiceCraft pizza website.
                 </p>
                 <a
                   href="/portfolio5"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter "
                 >
                   Read more
                   <svg
@@ -341,9 +347,9 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#react.js</p>
-                  <p className="mx-1 text-green-600">#mongodb</p>
-                  <p className="mx-1 text-red-600">#tailwind</p>
+                  <p className="mx-1 text-blue-600 font-inter">#react.js</p>
+                  <p className="mx-1 text-green-600 font-inter">#mongodb</p>
+                  <p className="mx-1 text-red-600 font-inter">#tailwind</p>
                 </div>
               </div>
             </div>
@@ -364,18 +370,18 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Metait company official website
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Create mobile response metait official web site for metait
                   company.
                 </p>
 
                 <a
                   href="/portfolio6"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -396,12 +402,14 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#Java Script</p>
+                  <p className="mx-1 text-yellow-600 font-inter">
+                    #Java Script
+                  </p>
                 </div>
               </div>
             </div>
@@ -426,18 +434,18 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Pharmacy Tracking System.
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Pharmacy Tracking System for easily tracking the necessary
                   medicines for patients in the nearest phamacy
                 </p>
 
                 <a
                   href="/portfolio7"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -458,12 +466,12 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#MERN Stack</p>
+                  <p className="mx-1 text-yellow-600 font-inter">#MERN Stack</p>
                 </div>
               </div>
             </div>
@@ -481,17 +489,17 @@ const CarouselComponent = () => {
               />
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   School Website.
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Created a website for school (Frontend-part).
                 </p>
 
                 <a
                   href="/portfolio8"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -512,13 +520,15 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#Java Script</p>
-                  <p className="mx-1 text-purple-600">#Firebase</p>
+                  <p className="mx-1 text-yellow-600 font-inter">
+                    #Java Script
+                  </p>
+                  <p className="mx-1 text-purple-600 font-inter">#Firebase</p>
                 </div>
               </div>
             </div>
@@ -542,11 +552,11 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Statictis Table
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   The purpose of a Statistics Table is to summarize and present
                   data in a structured format, making it easier to understand,
                   analyze, and draw conclusions from the data.
@@ -554,7 +564,7 @@ const CarouselComponent = () => {
 
                 <a
                   href="/portfolio9"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -575,13 +585,15 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex ">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
 
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#Java Script</p>
+                  <p className="mx-1 text-yellow-600 font-inter">
+                    #Java Script
+                  </p>
                 </div>
               </div>
             </div>
@@ -606,17 +618,17 @@ const CarouselComponent = () => {
               </a>
 
               <div className="p-5">
-                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                   Note creating app
                 </h5>
 
-                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                   Created note adding website.
                 </p>
 
                 <a
                   href="/portfolio10"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                 >
                   Read more
                   <svg
@@ -637,12 +649,14 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="flex">
-                  <p className="mx-1 text-blue-600">#HTML</p>
-                  <p className="mx-1 text-green-600">#CSS</p>
-                  <p className="mx-1 text-red-600">#Bootstrap</p>
+                  <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                  <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                  <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                 </div>
                 <div className="flex">
-                  <p className="mx-1 text-yellow-600">#Java Script</p>
+                  <p className="mx-1 text-yellow-600 font-inter">
+                    #Java Script
+                  </p>
                 </div>
               </div>
             </div>
@@ -654,8 +668,10 @@ const CarouselComponent = () => {
 
   return (
     <div className="w-full px-8 py-20 bg-cover md:p-20">
-      <h5 className="mb-5 text-2xl font-bold text-purple-600">Projects</h5>
-      <p className="mb-2 text-lg text-left ">
+      <h5 className="mb-5 text-2xl font-bold text-purple-600 font-inter">
+        Projects
+      </h5>
+      <p className="mb-2 text-lg text-left font-inter ">
         Following projects showcases my skills and experience through real-world
         examples of my work. Each project is briefly described with links to
         code repositories and live demos in it. It reflects my ability to solve
@@ -684,17 +700,17 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Cloud-based student information chatbot system.
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Created a cloud-based student information chatbot system
                     that makes information access easier for student safety.
                   </p>
                   <a
                     href="/portfolio1"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -715,14 +731,16 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="bottom-0 flex">
-                    <p className="mx-1 text-yellow-600">#React.js</p>
-                    <p className="mx-1 text-purple-600">#Dialog Flow</p>
-                    <p className="mx-1 text-orange-600">#Firebase</p>
+                    <p className="mx-1 text-yellow-600 font-inter">#React.js</p>
+                    <p className="mx-1 text-purple-600 font-inter">
+                      #Dialog Flow
+                    </p>
+                    <p className="mx-1 text-orange-600 font-inter">#Firebase</p>
                   </div>
                 </div>
               </div>
@@ -743,16 +761,16 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Fashion store website
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Created mobile response web sie for fashion design.
                   </p>
                   <a
                     href="/portfolio2"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -773,9 +791,9 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="bottom-0 flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                 </div>
               </div>
@@ -793,15 +811,15 @@ const CarouselComponent = () => {
                 />
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Admin Panel for Janux Academy
                   </h5>
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Creating an admin panel for Janux Academy(Frontend part).
                   </p>{" "}
                   <a
                     href="/portfolio3"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -821,13 +839,13 @@ const CarouselComponent = () => {
                     </svg>
                   </a>
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#React.js</p>
-                    <p className="mx-1 text-purple-600">#Firebase</p>
+                    <p className="mx-1 text-yellow-600 font-inter">#React.js</p>
+                    <p className="mx-1 text-purple-600 font-inter">#Firebase</p>
                   </div>
                 </div>
               </div>
@@ -851,11 +869,11 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     SpiceCraft pizza website
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Creating a SpiceCraft pizza website for pizza ordering
                     store.
                   </p>
@@ -883,15 +901,19 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#Laravel</p>
-                    <p className="mx-1 text-green-600">#Firebase</p>
-                    <p className="mx-1 text-red-600">#HTML</p>
-                    <p className="mx-1 text-yellow-600">#CSS</p>
+                    <p className="mx-1 text-blue-600 font-inter">#Laravel</p>
+                    <p className="mx-1 text-green-600 font-inter">#Firebase</p>
+                    <p className="mx-1 text-red-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-yellow-600 font-inter">#CSS</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-purple-600">#Bootstrap</p>
-                    <p className="mx-1 text-orange-600">#Java Script</p>
-                    <p className="mx-1 text-pink-600">#MySql</p>
+                    <p className="mx-1 text-purple-600 font-inter">
+                      #Bootstrap
+                    </p>
+                    <p className="mx-1 text-orange-600 font-inter">
+                      #Java Script
+                    </p>
+                    <p className="mx-1 text-pink-600 font-inter">#MySql</p>
                   </div>
                 </div>
               </div>
@@ -911,16 +933,16 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     SpiceCraft website's admin panel
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Creating an admin panel for SpiceCraft pizza website.
                   </p>
                   <a
                     href="/portfolio5"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -941,9 +963,9 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#react.js</p>
-                    <p className="mx-1 text-green-600">#mongodb</p>
-                    <p className="mx-1 text-red-600">#tailwind</p>
+                    <p className="mx-1 text-blue-600 font-inter">#react.js</p>
+                    <p className="mx-1 text-green-600 font-inter">#mongodb</p>
+                    <p className="mx-1 text-red-600 font-inter">#tailwind</p>
                   </div>
                 </div>
               </div>
@@ -964,18 +986,18 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Metait company official website
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Create mobile response metait official web site for metait
                     company.
                   </p>
 
                   <a
                     href="/portfolio6"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter "
                   >
                     Read more
                     <svg
@@ -996,12 +1018,14 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#Java Script</p>
+                    <p className="mx-1 text-yellow-600 font-inter">
+                      #Java Script
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1026,18 +1050,18 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Pharmacy Tracking System.
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Pharmacy Tracking System for easily tracking the necessary
                     medicines for patients in the nearest phamacy
                   </p>
 
                   <a
                     href="/portfolio7"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -1058,12 +1082,14 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#MERN Stack</p>
+                    <p className="mx-1 text-yellow-600 font-inter">
+                      #MERN Stack
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1085,13 +1111,13 @@ const CarouselComponent = () => {
                     School Website.
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Created a website for school (Frontend-part).
                   </p>
 
                   <a
                     href="/portfolio8"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -1112,13 +1138,15 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#Java Script</p>
-                    <p className="mx-1 text-purple-600">#Firebase</p>
+                    <p className="mx-1 text-yellow-600 font-inter">
+                      #Java Script
+                    </p>
+                    <p className="mx-1 text-purple-600 font-inter">#Firebase</p>
                   </div>
                 </div>
               </div>
@@ -1142,11 +1170,11 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Statictis Table
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     The purpose of a Statistics Table is to summarize and
                     present data in a structured format, making it easier to
                     understand, analyze, and draw conclusions from the data.
@@ -1154,7 +1182,7 @@ const CarouselComponent = () => {
 
                   <a
                     href="/portfolio9"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -1175,13 +1203,15 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex ">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
 
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#Java Script</p>
+                    <p className="mx-1 text-yellow-600 font-inter">
+                      #Java Script
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1207,17 +1237,17 @@ const CarouselComponent = () => {
                 </a>
 
                 <div className="p-5">
-                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
                     Note creating app
                   </h5>
 
-                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
                     Created note adding website.
                   </p>
 
                   <a
                     href="/portfolio10"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
                     <svg
@@ -1238,12 +1268,14 @@ const CarouselComponent = () => {
                   </a>
 
                   <div className="flex">
-                    <p className="mx-1 text-blue-600">#HTML</p>
-                    <p className="mx-1 text-green-600">#CSS</p>
-                    <p className="mx-1 text-red-600">#Bootstrap</p>
+                    <p className="mx-1 text-blue-600 font-inter">#HTML</p>
+                    <p className="mx-1 text-green-600 font-inter">#CSS</p>
+                    <p className="mx-1 text-red-600 font-inter">#Bootstrap</p>
                   </div>
                   <div className="flex">
-                    <p className="mx-1 text-yellow-600">#Java Script</p>
+                    <p className="mx-1 text-yellow-600 font-inter">
+                      #Java Script
+                    </p>
                   </div>
                 </div>
               </div>

@@ -16,7 +16,7 @@ function Portfolio1() {
       id="portfolio1"
     >
       <Navbar />
-      <h5 className="pt-32 mx-10 mb-4 text-xl font-bold text-purple-600 md:mx-40">
+      <h5 className="pt-32 mx-10 mb-4 text-xl font-bold text-purple-600 md:mx-40 font-inter">
         More Details ...
       </h5>
       <div className="h-auto py-10 ">

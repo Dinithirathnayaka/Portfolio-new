@@ -44,13 +44,15 @@ function Contact() {
     >
       <section className="grid items-center justify-center gap-10 py-20 md:grid-cols-2 md:items-center md:text-left md:px-20 backdrop-brightness-50 bg-black/30">
         <div className="z-50">
-          <h5 className="mb-5 text-2xl font-bold text-white">Contact me</h5>
+          <h5 className="mb-5 text-2xl font-bold text-white font-inter">
+            Contact me
+          </h5>
           <div className="flex mb-5">
             <FaMap className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
 
             <div>
-              <h3 className="text-purple-600">Address</h3>
-              <p className="text-white">
+              <h3 className="text-purple-600 font-inter">Address</h3>
+              <p className="text-white font-inter">
                 "Madushan" <br />
                 Batawela, <br />
                 Pattiyagedara, <br />
@@ -62,22 +64,24 @@ function Contact() {
           <div className="flex mb-5">
             <FaPhone className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
             <div>
-              <h3 className="text-purple-600">Phone</h3>
-              <p className="text-white">0716690125</p>
+              <h3 className="text-purple-600 font-inter">Phone</h3>
+              <p className="text-white font-inter">0716690125</p>
             </div>
           </div>
 
           <div className="flex mb-5">
             <FaEnvelope className="w-8 h-8 p-2.5 m-3 bg-white rounded-full" />
             <div>
-              <h3 className="text-purple-600">Email</h3>
-              <p className="text-white">dinithinayanamali98@gmail.com</p>
+              <h3 className="text-purple-600 font-inter">Email</h3>
+              <p className="text-white font-inter">
+                dinithinayanamali98@gmail.com
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="w-auto px-10 py-10 bg-white rounded-lg md:w-60%">
-          <h2 className="text-2xl font-bold">Send Message</h2>
+        <div className="w-auto md:px-10 px-5  py-10 bg-white rounded-lg md:w-60%">
+          <h2 className="text-2xl font-bold font-inter">Send Message</h2>
 
           <IconContext.Provider value={{ fontsize: "5px" }}>
             <form ref={form} className="form" onSubmit={sendEmail}>
@@ -86,7 +90,7 @@ function Contact() {
                   id="name"
                   type="text"
                   name="name"
-                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none"
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none font-inter"
                   placeholder="Full Name"
                 />
               </div>
@@ -96,7 +100,7 @@ function Contact() {
                   id="email"
                   type="email"
                   name="email"
-                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none "
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none font-inter"
                   placeholder="Email"
                 />
               </div>
@@ -106,13 +110,13 @@ function Contact() {
                   id="message"
                   rows={2}
                   name="message"
-                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none"
+                  className="w-full p-2 text-lg border-b-2 border-black focus:outline-none font-inter"
                   placeholder="Type Your Message..."
                 />
               </div>
               <button
                 type="submit"
-                className="w-40 p-3 text-white bg-purple-600 rounded-md"
+                className="flex items-center justify-center w-40 p-3 mx-auto text-white bg-purple-600 rounded-md font-inter"
               >
                 Send
               </button>

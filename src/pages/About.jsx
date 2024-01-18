@@ -34,8 +34,10 @@ function About() {
              -----------------------------------*/}
       <div className="backdrop-brightness-50 bg-black/55">
         <div className="pt-20 pl-5 pr-20 md:p-20">
-          <h5 className="mb-5 text-2xl font-bold text-white">About me</h5>
-          <h5 className="w-full mx-20 text-xl font-bold text-purple-600">
+          <h5 className="mb-5 text-2xl font-bold text-white font-inter">
+            About me
+          </h5>
+          <h5 className="w-full mx-20 text-xl font-bold text-purple-600 font-inter">
             Education
           </h5>
 
@@ -58,16 +60,16 @@ function About() {
                 <img src={img13} alt="Your Image" style={{ width: "40px" }} />
               }
             >
-              <h3 className="mb-3 vertical-timeline-element-title">
+              <h3 className="mb-3 vertical-timeline-element-title font-inter">
                 {" "}
                 Sabaragamuwa University Of Sri Lanka-Computing And Information
                 Systems(CIS)
               </h3>
-              <h4 className="w-32 p-1 text-center text-black bg-white rounded-lg vertical-timeline-element-subtitle ">
+              <h4 className="w-32 p-1 text-center text-black bg-white rounded-lg vertical-timeline-element-subtitle font-inter">
                 {" "}
                 Undergraduate
               </h4>
-              <p>
+              <p className="font-inter">
                 I am an undergraduate from the Department of Computing and
                 Information Systems at the Faculty of Computing, Sabaragamuwa
                 University of Sri Lanka.
@@ -87,14 +89,14 @@ function About() {
                 <img src={img14} alt="Your Image" style={{ width: "40px" }} />
               }
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-titlefont-inter">
                 Sabaragamuwa University Of Sri Lanka-CODL <br />
                 Certificate Course in English
               </h3>
-              <h4 className="w-32 p-1 text-center text-white bg-purple-600 rounded-lg vertical-timeline-element-subtitle">
+              <h4 className="w-32 p-1 text-center text-white bg-purple-600 rounded-lg vertical-timeline-element-subtitle font-inter">
                 Completed
               </h4>
-              <p>
+              <p className="font-inter">
                 I completed a Certificate Course in English at the Center for
                 Open and Distance Learning (CODL), Sabaragamuwa University of
                 Sri Lanka.
@@ -106,7 +108,7 @@ function About() {
        -----MyService Section-------- 
        -----------------------------------*/}
 
-          <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600">
+          <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600 font-inter">
             My Services
           </h5>
 
@@ -129,12 +131,12 @@ function About() {
                 <img src={img12} alt="Your Image" style={{ width: "40px" }} />
               }
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title font-inter">
                 {" "}
                 Full Stack Web Development
               </h3>
 
-              <p>
+              <p className="font-inter">
                 I'm a skilled Full-Stack Developer in MERN stack and PHP
                 Laravel. Explore my portfolio to see my work in building dynamic
                 web applications using cutting-edge technologies.
@@ -143,7 +145,7 @@ function About() {
           </VerticalTimeline>
         </div>
         <div className="p-8 md:px-20">
-          <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600">
+          <h5 className="mx-20 mt-20 text-xl font-bold text-purple-600 font-inter">
             Technologies & Languages
           </h5>
           <Marquee direction="right" speed={100} className="mt-10 ">

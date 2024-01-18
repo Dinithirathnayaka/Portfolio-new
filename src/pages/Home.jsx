@@ -5,43 +5,38 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import resume from "../assets/resume.pdf";
 
 function Home() {
   const [text] = useTypewriter({
     words: ["Web Developer.", "Full Stack Developer."],
-    loop: 3,
+    loop: 3000,
     onLoopDone: () => console.log(`loop completed after 3 runs.`),
   });
 
-  const cvUrl = "../assets/Dinithi_Rathnayake.png";
-
-  const handleDownload = () => {
-    window.location.href = cvUrl;
-  };
   return (
     <div className="w-full h-auto px-8 pt-20 md:p-10" id="home">
       <section className="grid gap-5 md:grid-cols-2 md:items-center md:text-left sm:pt-20">
         {" "}
         <div>
-          <h1 className="mb-3 text-xl font-bold text-purple-600 uppercase">
+          <h1 className="mb-3 text-xl font-bold text-purple-600 uppercase font-inter">
             Hi There,
           </h1>
 
-          <h1 className="mb-8 text-4xl font-bold">
-            I'm Dinithi Rathnayake ,<br />a <span>{text}</span>{" "}
+          <h1 className="mb-8 text-4xl font-bold font-inter">
+            I'm Dinithi Rathnayake ,<br />a{" "}
+            <span className="font-inter">{text}</span>{" "}
             <span>
               {" "}
               <Cursor className="text-purple-600" />
             </span>
           </h1>
 
-          <p className="mb-5">
-            "✨🚀 Passionate Developer with a flair for crafting seamless,
-            innovative, and user-centric web experiences. My code weaves
-            together creativity and functionality, transforming ideas into
-            digital masterpieces. From front-end finesse to back-end brilliance,
-            I specialize in bringing projects to life with a perfect blend of
-            aesthetics and robust functionality.💻✨"
+          <p className="mb-5 font-inter">
+            "✨🚀 Enthusiastic developer skilled in creating user-friendly web
+            experiences that seamlessly combine creativity and functionality. My
+            coding expertise brings ideas to life, from polished front-end
+            designs to powerful back-end solutions.💻✨"
           </p>
 
           <div className="flex items-center mb-3 flex-left">
@@ -64,10 +59,9 @@ function Home() {
           </div>
 
           <a
-            href={cvUrl}
-            download="YourCVFileName.pdf"
-            onClick={handleDownload}
-            className="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-white bg-purple-600 rounded-lg hover:border-2 hover:border-white "
+            href={resume}
+            download="Resume"
+            className="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-white bg-purple-600 rounded-lg font-inter hover:border-2 hover:border-white "
           >
             Download CV
             <svg

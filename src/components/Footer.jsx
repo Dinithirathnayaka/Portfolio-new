@@ -23,21 +23,21 @@ function Footer() {
       </div>
 
       <div className="flex justify-center mb-10 text-center">
-        <a href="" className="mx-2 font-bold text-white">
+        <a href="" className="mx-2 font-bold text-white font-inter">
           Home
         </a>
-        <a href="" className="mx-2 font-bold text-white">
+        <a href="" className="mx-2 font-bold text-white font-inter">
           About
         </a>
-        <a href="" className="mx-2 font-bold text-white">
+        <a href="" className="mx-2 font-bold text-white font-inter">
           Portfolio
         </a>
-        <a href="" className="mx-2 font-bold text-white">
+        <a href="" className="mx-2 font-bold text-white font-inter">
           Contact
         </a>
       </div>
 
-      <p className="bottom-0 text-center text-white font-lg">
+      <p className="bottom-0 text-center text-white font-lg font-inter">
         © 2023 All rights reserved.
       </p>
     </section>
