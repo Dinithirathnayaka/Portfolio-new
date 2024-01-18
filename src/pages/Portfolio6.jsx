@@ -10,7 +10,7 @@ import img8 from "../assets/metait8.png";
 import img9 from "../assets/metait9.png";
 import img10 from "../assets/metait10.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio6() {
   return (

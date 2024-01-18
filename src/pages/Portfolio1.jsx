@@ -7,7 +7,7 @@ import img5 from "../assets/chatbot5.png";
 import img6 from "../assets/chatbot6.png";
 import img7 from "../assets/chatbot7.jpg";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio1() {
   return (

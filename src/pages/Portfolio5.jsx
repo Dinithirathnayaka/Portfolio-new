@@ -10,7 +10,7 @@ import img8 from "../assets/pizza18.png";
 import img9 from "../assets/pizza19.png";
 import img10 from "../assets/pizza20.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio5() {
   return (

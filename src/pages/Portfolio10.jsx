@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../assets/note1.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio10() {
   return (

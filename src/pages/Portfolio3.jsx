@@ -4,7 +4,7 @@ import img2 from "../assets/janux2.png";
 import img3 from "../assets/janux3.png";
 import img4 from "../assets/janux4.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio3() {
   return (

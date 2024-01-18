@@ -9,7 +9,7 @@ import img7 from "../assets/pizza15.png";
 import img8 from "../assets/pizza16.png";
 import img9 from "../assets/pizza8.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio4() {
   return (

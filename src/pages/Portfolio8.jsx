@@ -6,7 +6,7 @@ import img4 from "../assets/scl4.png";
 import img5 from "../assets/scl5.png";
 import img6 from "../assets/scl6.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio8() {
   return (

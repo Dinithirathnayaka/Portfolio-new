@@ -9,7 +9,7 @@ import img7 from "../assets/fashion7.png";
 import img8 from "../assets/fashion8.png";
 import img9 from "../assets/fashion9.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/PortfolioNavbar";
 
 function Portfolio2() {
   return (
