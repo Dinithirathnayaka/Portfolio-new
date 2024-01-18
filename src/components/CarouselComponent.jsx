@@ -94,7 +94,7 @@ const CarouselComponent = () => {
                   makes information access easier for student safety.
                 </p>
                 <a
-                  href="portfolio1"
+                  href="/portfolio1"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -152,7 +152,7 @@ const CarouselComponent = () => {
                   Created mobile response web sie for fashion design.
                 </p>
                 <a
-                  href="portfolio2"
+                  href="/portfolio2"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -201,7 +201,7 @@ const CarouselComponent = () => {
                   Creating an admin panel for Janux Academy(Frontend part).
                 </p>{" "}
                 <a
-                  href="portfolio3"
+                  href="/portfolio3"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -261,7 +261,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio4"
+                  href="/portfolio4"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -319,7 +319,7 @@ const CarouselComponent = () => {
                   Creating an admin panel for SpiceCraft pizza website.
                 </p>
                 <a
-                  href="portfolio5"
+                  href="/portfolio5"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -374,7 +374,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio6"
+                  href="/portfolio6"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -436,7 +436,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio7"
+                  href="/portfolio7"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -490,7 +490,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio8"
+                  href="/portfolio8"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -553,7 +553,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio9"
+                  href="/portfolio9"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -615,7 +615,7 @@ const CarouselComponent = () => {
                 </p>
 
                 <a
-                  href="portfolio10"
+                  href="/portfolio10"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                 >
                   Read more
@@ -693,7 +693,7 @@ const CarouselComponent = () => {
                     that makes information access easier for student safety.
                   </p>
                   <a
-                    href="portfolio1"
+                    href="/portfolio1"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -751,7 +751,7 @@ const CarouselComponent = () => {
                     Created mobile response web sie for fashion design.
                   </p>
                   <a
-                    href="portfolio2"
+                    href="/portfolio2"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -800,7 +800,7 @@ const CarouselComponent = () => {
                     Creating an admin panel for Janux Academy(Frontend part).
                   </p>{" "}
                   <a
-                    href="portfolio3"
+                    href="/portfolio3"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -861,7 +861,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio4"
+                    href="/portfolio4"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -919,7 +919,7 @@ const CarouselComponent = () => {
                     Creating an admin panel for SpiceCraft pizza website.
                   </p>
                   <a
-                    href="portfolio5"
+                    href="/portfolio5"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -974,7 +974,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio6"
+                    href="/portfolio6"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -1036,7 +1036,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio7"
+                    href="/portfolio7"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -1090,7 +1090,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio8"
+                    href="/portfolio8"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -1153,7 +1153,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio9"
+                    href="/portfolio9"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more
@@ -1216,7 +1216,7 @@ const CarouselComponent = () => {
                   </p>
 
                   <a
-                    href="portfolio10"
+                    href="/portfolio10"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 "
                   >
                     Read more

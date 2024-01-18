@@ -15,18 +15,25 @@ import Portfolio8 from "./pages/Portfolio8";
 import Portfoli09 from "./pages/Portfolio9";
 import Portfolio10 from "./pages/Portfolio10";
 import Portfolio9 from "./pages/Portfolio9";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/portfolio1" element={<Portfolio1 />} />
+          <Route path="/portfolio2" element={<Portfolio2 />} />
+          <Route path="/portfolio3" element={<Portfolio3 />} />
+          <Route path="/portfolio4" element={<Portfolio4 />} />
+          <Route path="/portfolio5" element={<Portfolio5 />} />
+          <Route path="/portfolio6" element={<Portfolio6 />} />
+          <Route path="/portfolio7" element={<Portfolio7 />} />
+          <Route path="/portfolio8" element={<Portfolio8 />} />
+          <Route path="/portfolio9" element={<Portfolio9 />} />
+          <Route path="/portfolio10" element={<Portfolio10 />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
