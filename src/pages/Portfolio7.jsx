@@ -20,8 +20,7 @@ import Navbar from "../components/Navbar";
 function Portfolio7() {
   return (
     <div className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto">
-      <Navbar />{" "}
-      <h5 className="mx-40 text-xl text-white pt-14">More Details ...</h5>
+      <Navbar /> v
       <div className="h-auto py-10 ">
         <div className="flex flex-wrap justify-center gap-4">
           <div className="relative m-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 ">

@@ -16,7 +16,9 @@ function Portfolio1() {
       id="portfolio1"
     >
       <Navbar />
-      <h5 className="mx-40 text-xl text-white pt-14">More Details ...</h5>
+      <h5 className="pt-32 mx-10 mb-12 text-xl font-bold text-purple-600 md:mx-40">
+        More Details ...
+      </h5>
       <div className="h-auto py-10 ">
         <div className="flex flex-wrap justify-center gap-4">
           <div className="relative m-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 ">

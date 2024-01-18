@@ -15,7 +15,9 @@ function Portfolio2() {
   return (
     <div className="bg-gradient-to-r from-indigo-200 from-10% via-sky-100 via-30% to-emerald-100 to-90% h-auto">
       <Navbar />
-      <h5 className="mx-40 text-xl text-white pt-14">More Details ...</h5>
+      <h5 className="pt-32 mx-10 mb-12 text-xl font-bold text-purple-600 md:mx-40">
+        More Details ...
+      </h5>
       <div className="h-auto py-10 ">
         {" "}
         <div className="flex flex-wrap justify-center gap-4">
