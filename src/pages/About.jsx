@@ -137,9 +137,9 @@ function About() {
               </h3>
 
               <p className="font-inter">
-                I'm a skilled Full-Stack Developer in MERN stack and PHP
-                Laravel. Explore my portfolio to see my work in building dynamic
-                web applications using cutting-edge technologies.
+                I'm a skilled Full-Stack Developer in MERN stack, Redux, Next.js
+                and PHP Laravel. Explore my portfolio to see my work in building
+                dynamic web applications using cutting-edge technologies.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
