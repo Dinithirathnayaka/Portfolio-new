@@ -1334,7 +1334,8 @@ const CarouselComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+
+              <div className="relative items-center m-8 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center ">
                 <img
                   src={img11}
                   alt=""
@@ -1355,11 +1356,11 @@ const CarouselComponent = () => {
                   </h5>
 
                   <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
-                    Created React Ecommerce webstore using Redux toolkits
+                    Created React Ecommerce webstore using Redux toolkits.
                   </p>
 
                   <a
-                    href="/portfolio11"
+                    href="/portfolio10"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
                   >
                     Read more
