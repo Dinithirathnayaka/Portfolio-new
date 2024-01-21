@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Main from "./pages/MainPage";
-import Portfolio from "./pages/Portfolio";
+
 import Portfolio1 from "./pages/Portfolio1";
 import Portfolio2 from "./pages/Portfolio2";
 import Portfolio3 from "./pages/Portfolio3";
@@ -12,9 +12,9 @@ import Portfolio5 from "./pages/Portfolio5";
 import Portfolio6 from "./pages/Portfolio6";
 import Portfolio7 from "./pages/Portfolio7";
 import Portfolio8 from "./pages/Portfolio8";
-import Portfoli09 from "./pages/Portfolio9";
-import Portfolio10 from "./pages/Portfolio10";
 import Portfolio9 from "./pages/Portfolio9";
+import Portfolio10 from "./pages/Portfolio10";
+import Portfolio11 from "./pages/Portfolio11";
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
           <Route path="/portfolio8" element={<Portfolio8 />} />
           <Route path="/portfolio9" element={<Portfolio9 />} />
           <Route path="/portfolio10" element={<Portfolio10 />} />
+          <Route path="/portfolio11" element={<Portfolio11 />} />
         </Routes>
       </BrowserRouter>
     </div>

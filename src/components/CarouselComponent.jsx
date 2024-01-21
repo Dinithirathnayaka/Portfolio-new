@@ -15,6 +15,7 @@ import img7 from "../assets/Picture1.png";
 import img8 from "../assets/school1.png";
 import img9 from "../assets/statics1.png";
 import img10 from "../assets/note1.png";
+import img11 from "../assets/ecommerce1.png";
 
 const CarouselComponent = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -660,6 +661,60 @@ const CarouselComponent = () => {
                 </div>
               </div>
             </div>
+
+            <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+              <img
+                src={img11}
+                alt=""
+                className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
+              />
+              <a href="https://github.com/Dinithirathnayaka/Ecommerce-website">
+                {" "}
+                <img
+                  src={git}
+                  alt=""
+                  className="absolute w-8 rounded-full top-5 right-5 "
+                />
+              </a>
+
+              <div className="p-5">
+                <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
+                  E-commerce website
+                </h5>
+
+                <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
+                  Created React Ecommerce webstore using Redux toolkits
+                </p>
+
+                <a
+                  href="/portfolio11"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
+                >
+                  Read more
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+
+                <div className="flex">
+                  <p className="mx-1 text-blue-600 font-inter">#React</p>
+                  <p className="mx-1 text-green-600 font-inter">#Redux</p>
+                  <p className="mx-1 text-red-600 font-inter">#Tailwind</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1276,6 +1331,59 @@ const CarouselComponent = () => {
                     <p className="mx-1 text-yellow-600 font-inter">
                       #Java Script
                     </p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative items-center mt-6 overflow-hidden bg-white bg-no-repeat bg-cover border border-gray-200 rounded-lg shadow h-h1 w-w5 dark:bg-gray-800 dark:border-gray-700 jusify-center">
+                <img
+                  src={img11}
+                  alt=""
+                  className="h-40 mx-auto mt-3 transition duration-300 ease-in-out border rounded-lg w-w4 hover:scale-110"
+                />
+                <a href="https://github.com/Dinithirathnayaka/Ecommerce-website">
+                  {" "}
+                  <img
+                    src={git}
+                    alt=""
+                    className="absolute w-8 rounded-full top-5 right-5 "
+                  />
+                </a>
+
+                <div className="p-5">
+                  <h5 className="mb-3 text-xl font-bold tracking-tight text-gray-900 dark:text-white font-inter">
+                    E-Commerce Website
+                  </h5>
+
+                  <p className="mb-5 font-normal text-gray-700 dark:text-gray-400 font-inter">
+                    Created React Ecommerce webstore using Redux toolkits
+                  </p>
+
+                  <a
+                    href="/portfolio11"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-white mb-3 font-inter"
+                  >
+                    Read more
+                    <svg
+                      class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+
+                  <div className="flex">
+                    <p className="mx-1 text-blue-600 font-inter">#React</p>
+                    <p className="mx-1 text-green-600 font-inter">#Redux</p>
+                    <p className="mx-1 text-red-600 font-inter">#Tailwind</p>
                   </div>
                 </div>
               </div>
