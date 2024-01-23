@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <div className="w-full h-auto px-8 pt-20 md:p-10" id="home">
-      <section className="grid gap-5 md:grid-cols-2 md:items-center md:text-left sm:pt-20">
+      <section className="grid gap-5 my-10 md:my-0 md:grid-cols-2 md:items-center md:text-left sm:pt-32">
         {" "}
         <div>
           <h1 className="mb-3 text-xl font-bold text-purple-600 uppercase font-inter">
@@ -81,9 +81,18 @@ function Home() {
             </svg>
           </a>
         </div>
-        <div className="relative flex items-center justify-center">
-          <img src={img2} alt="" className="mx-auto w-w6" />
-          <img src={img} alt="" className="absolute" />
+        <div className="relative flex items-center justify-center w-full max-w-lg py-10 ">
+          <div className="absolute top-0 bg-purple-300 rounded-full -left-4 md:w-72 w-52 h-52 md:h-72 mix-blend-multiply filter blur-xl md:animate-blob opacity-70"></div>
+          <div className="absolute top-0 bg-purple-300 rounded-full -right-4 md:w-72 w-52 h-52 md:h-72 mix-blend-multiply filter blur-xl md:animate-blob opacity-70"></div>
+          <div className="absolute bg-purple-300 rounded-full bottom-16 left-20 md:w-72 w-52 h-52 md:h-72 mix-blend-multiply filter blur-xl md:animate-blob opacity-70"></div>
+          {/* <img src={img2} alt="" className="mx-auto w-w6" /> */}
+
+          <div className="relative">
+            <img src={img} alt="" className="rounded-full w-w1" />
+            <div className="absolute inset-0 overflow-hidden">
+              <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-green-100 to-transparent"></div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
